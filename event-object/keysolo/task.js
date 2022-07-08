@@ -63,6 +63,8 @@ class Game {
         'awesome',
         'netology',
         'hello',
+		'js',
+		'victory',
         'kitty',
         'rock',
         'youtube',
