@@ -28,6 +28,8 @@ class Game {
       }
 
     });
+    
+  }
 
   success() {
     this.currentSymbol.classList.add('symbol_correct');
@@ -37,7 +39,7 @@ class Game {
     }
 
     if (++this.winsElement.textContent === 10) {
-      alert('Победа!');
+      alert('Победа, ура!!!!');
       this.reset();
     }
     this.setNewWord();
@@ -45,7 +47,7 @@ class Game {
 
   fail() {
     if (++this.lossElement.textContent === 5) {
-      alert('Вы проиграли!');
+      alert('Вы проиграли, ну ничего, всё впереди!');
       this.reset();
     }
     this.setNewWord();
@@ -62,9 +64,9 @@ class Game {
         'bob',
         'awesome',
         'netology',
+		'keysolo',
+		'everyday',
         'hello',
-		'js',
-		'victory',
         'kitty',
         'rock',
         'youtube',
